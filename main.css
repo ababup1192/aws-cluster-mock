@@ -18,14 +18,18 @@
 }
 
 .ecs-agent-container {
+    position: relative;
+    max-width: 1366px;
     order: 5;
     margin: 0 auto;
+    overflow-x: scroll;
 }
 
 .ecs-agent {
+    min-width: 300px;
     text-align: center;
     display: flex;
-    display: inline-block;
+    display: table-cell;
     flex-direction: column;
     width: 300px;
     border: 3px dotted black;
@@ -35,6 +39,13 @@
 
 .ecs-agent-title {
     border: 1px dotted #000000;
+}
+
+.ecs-agent-title.empty-children {
+    position: absolute;
+    border: 1px dotted #000000;
+    bottom: 23px;
+    width: 300px;
 }
 
 .ecs-task {
