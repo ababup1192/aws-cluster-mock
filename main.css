@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #000000; */
+    justify-content: space-around;
+}
+
+.ecs-cluster {
+    height: 70px;
+    line-height: 70px;
+    order: 6;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border: 3px dotted black;
+    border-radius: 10px;
+    background: #e47911;
+}
+
+.ecs-agent-container {
+    order: 5;
+    margin: 0 auto;
+}
+
+.ecs-agent {
+    text-align: center;
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    width: 300px;
+    border: 3px dotted black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.ecs-agent-title {
+    border: 1px dotted #000000;
+}
+
+.ecs-task {
+    border: 1px dotted #000000;
+}
+.ecs-task > ul {
+    padding-left: 0;
+}
+.ecs-task > ul > li {
+    display: inline-block;
+    background: pink;
+}
